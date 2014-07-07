@@ -28,4 +28,5 @@ object HashTag {
     bf.TagIo.readHashTag(new DataInputStream(new ByteArrayInputStream(value)))
 
   def apply(data: (String, bf.Tag)*) = new HashTag()(data)
+
 }
